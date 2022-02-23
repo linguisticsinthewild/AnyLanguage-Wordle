@@ -701,7 +701,7 @@ export const VALIDGUESSES = [
 "xi:pet",
 "eyoth",
 "ts'lham",
-"xe'at",
+"xe'at"
 ]
 
 if (CONFIG.normalization) {

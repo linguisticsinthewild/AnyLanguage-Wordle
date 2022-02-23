@@ -52,7 +52,7 @@ export const WORDS = [
 "mi:meqw",
 "skw'a:lx̲",
 "pesk'a",
-"pepo:t",
+"pepo:t"
 ]
 
 if (CONFIG.normalization) {

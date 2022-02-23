@@ -31,10 +31,10 @@ export const ORTHOGRAPHY = [
   'u:',
   'w',
   'x',
-  'x̲'
+  'x̲',
   'xw',
   'y',
-  "'",
+  "'"
 ]
 
 if (CONFIG.normalization) {
