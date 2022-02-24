@@ -1,0 +1,1 @@
+rsync -va --delete build/ yhager:/var/www/stoloshxweli/wordle/
