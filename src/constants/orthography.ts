@@ -23,9 +23,9 @@ export const ORTHOGRAPHY = [
   'o:',
   'p',
   "p'",
-  "q",
+  'q',
   "q'",
-  "qw",
+  'qw',
   "qw'",
   's',
   't',
@@ -40,7 +40,7 @@ export const ORTHOGRAPHY = [
   'x̲',
   'xw',
   'y',
-  "'"
+  "'",
 ]
 
 if (CONFIG.normalization) {
