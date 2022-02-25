@@ -18,7 +18,7 @@ import {
 } from './lib/localStorage'
 
 import { CONFIG } from './constants/config'
-import ReactGA from 'react-ga'
+import ReactGA from 'react-ga4'
 import '@bcgov/bc-sans/css/BCSans.css'
 import './i18n'
 import { withTranslation, WithTranslation } from 'react-i18next'
