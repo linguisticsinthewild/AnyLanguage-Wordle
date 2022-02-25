@@ -2,49 +2,49 @@ import { CONFIG } from './config'
 
 export const WORDS = [
   'yewal',
-  'iwest',
-  'yiyeq',
-  "q'owet",
-  'pumil',
-  'siyam',
-  'yeqwil',
+  'iwest', // Feb 24
+  'yiyeq', // Feb 25
+  "q'owet", // Feb 26
+  'pumil', // Feb 27
+  'siyam', // Feb 28
+  'yeqwil', // March 1
   "qwe'op",
   'hilekw',
   "q'oyits",
-  'syoys',
+  'syoys', // March 5
   'plist',
   "kw'itsel",
   "lets'axw",
   "t'ilem",
-  'kechel',
+  'kechel', // March 10
   'helem',
   'letam',
   "liqw'em",
   'kwosel',
-  'aletse',
+  'aletse', // March 15
   "ts'q'eyx̲",
   'schiya',
   'isale',
   "ts'its'etl'",
-  'hokwex',
+  'hokwex', // March 20
   'chalex',
   "s'atl'q",
   "sxelts'",
   'kwelexw',
-  "lep'ex",
+  "lep'ex", // March 25
   'lalem',
   "kw'okw'iy",
   'lekli',
   "ikw'elo",
   'lepot',
-  'qelat',
-  'qoqet',
+  'qelat', // March 31
+  'qoqet', // April 1
   'liyem',
   "kw'atset",
   'tewat',
-  'tselil',
+  'tselil', // April 5
   'kwelex',
-  "tl'elexw",
+  "tl'elexw", // April 7
 ]
 
 if (CONFIG.normalization) {
