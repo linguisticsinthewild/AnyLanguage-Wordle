@@ -557,7 +557,7 @@ export const VALIDGUESSES = [
   "th'eq'em",
   'tselqt',
   'shxwiyos',
-  'tem:exw',
+  'temexw',
   "q'oyi:ts",
   'x̲eyx̲e',
   'lhoyel',
@@ -887,6 +887,7 @@ export const VALIDGUESSES = [
   'chel:exw',
   "kw'atset",
   "qalets'",
+  'lewas',
 ]
 
 if (CONFIG.normalization) {
