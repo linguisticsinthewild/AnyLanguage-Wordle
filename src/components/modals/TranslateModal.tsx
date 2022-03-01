@@ -2,6 +2,7 @@ import { BaseModal } from './BaseModal'
 import { CONFIG } from '../../constants/config'
 import { useTranslation } from 'react-i18next'
 import { localeLanguageKey } from '../../i18n'
+import { VALIDGUESSES } from '../../constants/validGuesses'
 
 type Props = {
   isOpen: boolean
@@ -33,17 +34,18 @@ export const TranslateModal = ({ isOpen, handleClose }: Props) => {
     )
   }
 
+  const listWord = (word: string) => {
+    return <li>{word}</li>
+  }
+
   return (
     <BaseModal
-      title={t('pickYourLanguage')}
+      title={t('List of valid words')}
       isOpen={isOpen}
       handleClose={handleClose}
     >
-      <div
-        className="py-8 max-w-7xl mx-auto sm:px-6 lg:px-8"
-        onChange={onChangeValue}
-      >
-        {CONFIG.availableLangs.map((x) => createOption(x, t(`languages.${x}`)))}
+      <div>
+        <ul>{VALIDGUESSES.map((x) => listWord(x))}</ul>
       </div>
     </BaseModal>
   )

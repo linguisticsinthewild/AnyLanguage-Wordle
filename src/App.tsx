@@ -1,6 +1,7 @@
 import { InformationCircleIcon } from '@heroicons/react/outline'
 import { ChartBarIcon } from '@heroicons/react/outline'
 import { TranslateIcon } from '@heroicons/react/outline'
+import { AnnotationIcon } from '@heroicons/react/outline'
 import { useState, useEffect } from 'react'
 import { Alert } from './components/alerts/Alert'
 import { Grid } from './components/grid/Grid'
@@ -138,7 +139,7 @@ const App: React.FC<WithTranslation> = ({ t, i18n }) => {
   let translateElement = <div></div>
   if (CONFIG.availableLangs.length > 1) {
     translateElement = (
-      <TranslateIcon
+      <AnnotationIcon
         className="h-6 w-6 cursor-pointer"
         onClick={() => setIsI18nModalOpen(true)}
       />
